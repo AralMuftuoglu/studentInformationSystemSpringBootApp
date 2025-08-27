@@ -1,6 +1,4 @@
-# Student Information System (SIS) - Spring Boot Skeleton
-
-This project is a Spring Boot skeleton that connects to an **Oracle-based Student Information System database** and manages **tables, sequences, triggers, procedures, functions, and views** using **Flyway**.
+# Student Information System (SIS) - Spring Boot 
 
 ## Features
 - Spring Web, Spring Data JPA
