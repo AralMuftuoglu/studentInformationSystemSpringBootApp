@@ -13,22 +13,9 @@
     - Functions
     - Views
 
-## Configuration
-Update the Oracle connection details in:
+## API Examples
+- `GET /api/students` : Get all students  
+- `POST /api/students` : Create a new student  
+- `GET /api/students/{id}/gpa` : Calls Oracle FUNCTION `get_gpa`  
+- `POST /api/enrollments/enroll?studentId=1&courseId=2` : Calls Oracle PROCEDURE `ENROLL_STUDENT`  
 
-# Student Information System (SIS) - Spring Boot Skeleton
-
-This project is a Spring Boot skeleton that connects to an **Oracle-based Student Information System database** and manages **tables, sequences, triggers, procedures, functions, and views** using **Flyway**.
-
-## Features
-- Spring Web, Spring Data JPA
-- Oracle JDBC, Flyway (Oracle plugin)
-- Entity / Repository / Service / Controller layers
-- Example usage of Stored Procedures & Functions
-- Flyway migration files:
-    - Tables
-    - Sequences
-    - Triggers
-    - Procedures
-    - Functions
-    - Views
